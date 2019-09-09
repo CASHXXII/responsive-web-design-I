@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 .container {
   width: 100%;
-  border: 1px solid red;
   /* TB LR */
   margin: 0 auto;
 }
@@ -211,7 +210,6 @@ footer {
     }
     
     header nav {
-        border: 1px solid red;
         width: 100%;
         margin: 0;
         padding: 0;
