@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-  width: 880px;
+  width: 100%;
+  border: 1px solid red;
   /* TB LR */
   margin: 0 auto;
 }
@@ -75,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
   display: flex;
-  width: 691px;
+  width: 100%;
   vertical-align: top;
   margin-top: 35px;
 }
@@ -198,4 +199,64 @@ footer {
   font-size: 14px;
   display: flex;
   justify-content: center;
+}
+
+
+/******************* MAX-WIDTH 800PX MEDIA QUERY ********************/
+
+@media (max-width: 800px) {
+    
+    header {
+        flex-direction: column-reverse;
+    }
+    
+    header nav {
+        border: 1px solid red;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    div.logobox {
+        text-align: center;
+    }
+
+    .cta .headerimg {
+        display: none;
+    }
+
+    .cta {
+        width: 100%
+    }
+
+    section.main-content {
+        width: 100%;
+    }
+
+    img.middle-img {
+        width: 100%;
+    }
+
+    div.top-content {
+        width: 100%
+    }
+
+    div.bottom-content {
+        width: 100%
+    }
+
+    section.cta {
+        justify-content: center;
+    }
+
+}
+
+
+
+/******************* MAX-WIDTH 800PX MEDIA QUERY ********************/
+
+@media (max-width: 500px) {
+
+
 }
