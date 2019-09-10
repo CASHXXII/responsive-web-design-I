@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
   display: flex;
-  width: 100%;
+  width: 760px;
   vertical-align: top;
   margin-top: 35px;
 }
@@ -141,6 +141,7 @@ header .logo {
   padding-top: 39px;
   display: flex;
   flex-flow: row wrap;
+  width: 780px;
 }
 
 .main-content .top-content {
@@ -161,6 +162,7 @@ header .logo {
 
 .main-content .middle-img {
   margin-top: 45px;
+  width: 100%;
 }
 
 .main-content .bottom-content {
@@ -185,6 +187,7 @@ header .logo {
   padding: 39px 10px 0;
   display: flex;
   flex-direction: column;
+  width: 780px;
 }
 
 .contact p {
@@ -206,7 +209,7 @@ footer {
     
     header {
         flex-direction: column-reverse;
-        width: 100%
+        width: 100%;
     }
     
     header nav {
@@ -261,6 +264,10 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    header nav a {
+        border-bottom: 1px solid gray;
     }
 
     div.top-content {
